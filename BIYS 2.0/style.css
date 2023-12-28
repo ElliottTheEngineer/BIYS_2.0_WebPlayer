@@ -1,0 +1,90 @@
+:root {
+  --background: #363636;
+  --Playerbackground: #f0f0f0;
+  --text-color: #B71F38; /*88.1 The 'Burg RED */
+}
+
+/* Basic styling for the player interface */
+body {
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    margin: 0 auto; /* Remove default margin to prevent unwanted spacing */
+	background-color: var(--background); /* Set the background color to grey */
+	display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* 100% of the viewport height to fill the screen */
+	
+}
+#wrapper{
+	width: 600px;
+	background-color: var(--Playerbackground); /* Set the Player background color to grey */
+    padding: 20px; /* Add some padding to create space around the content */
+    border: 2px solid #000; /* Add a border around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */	
+	
+	/* Add rounded corners to the container */
+    border-radius: 15px; /* You can adjust the radius value to control the amount of rounding */
+}
+
+#wrapper h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+#mp3-name {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+	padding: 10px; /* Add some padding to create space around the content */
+	color: var(--text-color);
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#player-controls {
+    margin-bottom: 10px;
+    align-items: center; /* Vertically center the content */
+}
+
+#prev-button {
+    display: none;
+}
+
+#play-button {
+    display: none;
+}
+
+#folders {
+    margin-bottom: 10px;
+}
+
+#mp3-list {
+	display: none
+}
+
+#sweepers_mp3-list{
+	display: none
+}
+
+
+#audio-player {
+    width: 100%;
+}
+
+/* Styling for folders and MP3 file list */
+.folder {
+    cursor: pointer;
+    color: blue;
+}
+
+.mp3-file {
+    cursor: pointer;
+    color: green;
+}

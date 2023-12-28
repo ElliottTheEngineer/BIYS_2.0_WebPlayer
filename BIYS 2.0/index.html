@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KCWU Burg in your Space</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>KCWU - Burg in your Space</h1>
+		<div id="logo">
+			<img src="images/Logo.png" alt="Logo" width="200" height="200">
+		</div>
+		<div id="folders">
+			<label for="folder-select">Select a Playlist:</label>
+			<select id="folder-select"></select>
+		</div>
+
+		<div id="sweepers_folders">
+			<label for="sweeper-folder-select">Select a Sweeper:</label>
+			<select id="sweeper-folder-select"></select>
+		</div>
+		<div id="mp3-name">Select a playlist</div>
+		<div id="player-controls">
+			<!-- Add the buttons for Previous, Play, and Next -->
+			<button id="prev-button">Previous</button> 
+			<button id="play-button">Play</button>
+			<button id="next-button">Skip</button>
+		</div>
+		<audio id="audio-player" controls controlsList="nodownload noplaybackrate"></audio>
+		 
+		 <div id="mp3-list">
+			<!-- MP3 files will be listed here -->
+		</div>
+		 <div id="sweepers_mp3-list">
+			<!-- Sweepers MP3 files will be listed here -->
+		</div>
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>
