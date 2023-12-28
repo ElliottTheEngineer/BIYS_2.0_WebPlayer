@@ -4,6 +4,7 @@ Play your playlists hosted on the web
 Web Player README
 
 Introduction
+
   This repository contains the JavaScript code for a web-based audio player. It's designed to play music and sweeper tracks stored in specified directories on the server. The player offers basic controls such as play, next, and previous, along with dynamic listing of music and sweeper folders.
 
 Features
